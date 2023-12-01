@@ -22,3 +22,13 @@
 .nav-links:hover {
     color: #E7F2F5;
 }
+
+
+/*Home Header*/
+.home-header {
+    margin: 61px 0 0 0;
+    padding: 12px 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}

@@ -32,12 +32,14 @@
 
 
 /*Home Header*/
+
 .home-header {
     margin: 61px 0 0 0;
     padding: 12px 0px;
     width: 100%;
     text-align: center;
     font-size: 50px;
+    background-color: #DCDFE0;
 }
 
 
@@ -53,9 +55,10 @@
 
 .container-home-content {
     display: grid;
-    grid-template-columns: 74% 24%;
+    grid-template-columns: 74.5% 24.5%;
     grid-template-areas: "section aside";
     grid-column-gap: 1%;
+    margin: 16px 22px;
 }
 
 .container-home-content > * {

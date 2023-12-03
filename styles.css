@@ -5,17 +5,25 @@
     padding:0;
 }
 
+:root {
+    --light-blue: #00A0A0;
+    --dark-blue: #004646;
+    --black: #282828;
+    --white: #F0F0F0;
+    --grey: #F2F2F2;
+}
+
 /*****Navbar******/
 
 .home-nav {
-    background-color: #2EADCF;
+    background-color: var(--light-blue);
     position: fixed;
     top: 0;
     width: 100%;
     transition: top 0.3s;
     margin: 0;
     left: 0px;
-    border-bottom: 2px solid #E7F2F5;
+    border-bottom: 2px solid var(--white);
 }
 
 .nav-links {
@@ -27,7 +35,7 @@
 }
 
 .nav-links:hover {
-    color: #E7F2F5;
+    color: var(--white);
 }
 
 /*****Home Header*****/
@@ -38,7 +46,7 @@
     width: 100%;
     text-align: center;
     font-size: 50px;
-    background-color: #DCDFE0;
+    background-color: var(--grey);
 }
 
 /******Home Content Container******/

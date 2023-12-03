@@ -50,12 +50,23 @@
 /*****Home Header*****/
 
 .home-header {
-    margin: 61px 0 0 0;
-    padding: 12px 0px;
+    padding: 180px 0px 120px 0px;
     width: 100%;
     text-align: center;
-    font-size: 50px;
-    background-color: var(--grey);
+    font-size: 45px;
+    background-image: url("images/hawaii-homebackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 34%;
+}
+
+.title-description {
+    font-size: 24px;
+    
+}
+
+.home-header > * {
+    color: var(--white);
 }
 
 /******Home Content Container******/

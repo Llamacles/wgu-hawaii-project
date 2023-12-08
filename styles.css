@@ -84,11 +84,42 @@
     grid-template-columns: 74.5% 24.5%;
     grid-template-areas: "section aside";
     grid-column-gap: 1%;
-    margin: 16px 22px;
 }
 
-.container-home-content > * {
-    border: 1px solid black;
+/*****Home Welcome Section*****/
+.welcome-section {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 5%
+}
+
+.welcome-image {
+    max-width: 40%;
+    max-height: fit-content;
+    border-radius: 8px;
+    margin: 80px 30px;
+}
+
+.welcome-message {
+    color: var(--dark-blue);
+    margin-right: 2%;
+    text-align: center;
+}
+
+.welcome-message h1{
+    font-size: 50px;
+}
+
+.welcome-message p {
+    font-size: 24px;
+    padding-top: 20px;
+    line-height: 200%;
+}
+
+/*****Aside*****/
+aside {
+    background-color: var(--grey);
 }
 
 /*****City Content Container*****/

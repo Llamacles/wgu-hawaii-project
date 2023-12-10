@@ -122,6 +122,31 @@ aside {
     background-color: var(--grey);
 }
 
+.aside-title {
+    font-size: 36px;
+    text-align: center;
+    padding: 32px 0 38px 0; 
+    color: var(--dark-blue);
+}
+
+.aside-links {
+    display: flex;
+    justify-content: left;
+    padding-left: 15%;
+}
+
+.aside-links a {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.aside-links a:hover {
+    color: var(--light-blue);
+    text-decoration: underline;
+}
+
 /*****City Content Container*****/
 
 .container-city-content header {

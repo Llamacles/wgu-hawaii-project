@@ -11,6 +11,7 @@
     --black: #282828;
     --white: #F0F0F0;
     --grey: #F2F2F2;
+    --dark-grey: #F7F7F7;
 }
 
 /*****Navbar******/
@@ -48,7 +49,6 @@
 }
 
 /*****Home Header*****/
-
 .home-header {
     padding: 180px 0px 120px 0px;
     width: 100%;
@@ -70,7 +70,6 @@
 }
 
 /******Home Content Container******/
-
 .container-home-content section {
     grid-area: section;
 }
@@ -81,9 +80,9 @@
 
 .container-home-content {
     display: grid;
-    grid-template-columns: 74.5% 24.5%;
+    grid-template-columns: 75% 25%;
     grid-template-areas: "section aside";
-    grid-column-gap: 1%;
+    grid-column-gap: 0;
 }
 
 /*****Home Welcome Section*****/
@@ -117,6 +116,75 @@
     line-height: 200%;
 }
 
+/*****"What to Expect" Section*****/
+.what-to-expect-section {
+    background-color: var(--dark-grey);
+    padding: 1.375rem 0 2.575rem 0;
+}
+
+.separator {
+    width: 35%;
+    display: inline-block;
+    margin: 34px 18px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#what-to-expect {
+    text-align: center;
+    padding: 20px;
+    font-size: 2.3rem;
+    color: var(--dark-blue);
+}
+
+.wte-section-content.text-1 {
+    grid-area: text-1;
+}
+
+.wte-section-content.icon-1 {
+    grid-area: icon-1;
+}
+
+.wte-section-content.text-2 {
+    grid-area: text-2;
+}
+
+.wte-section-content.icon-2 {
+    grid-area: icon-2;
+}
+
+.wte-section-content.text-3 {
+    grid-area: text-3;
+}
+
+.wte-section-content.icon-3 {
+    grid-area: icon-3;
+}
+
+.wte-section-content {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    justify-items: left;
+    align-items: center;
+    margin: 1.6rem 8rem 0 11rem; 
+    gap: 3.875rem 4rem;
+    grid-template-areas: 
+        "icon-1 text-1"
+        "icon-2 text-2"
+        "icon-3 text-3";
+}
+
+.wte-section-content p {
+    font-size: 1.475em;
+    color: var(--dark-blue);
+}
+
 /*****Aside*****/
 aside {
     background-color: var(--grey);
@@ -133,6 +201,8 @@ aside {
     display: flex;
     justify-content: left;
     padding-left: 15%;
+    flex-direction: column;
+    gap: 4px;
 }
 
 .aside-links a {

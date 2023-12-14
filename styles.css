@@ -185,6 +185,47 @@
     color: var(--dark-blue);
 }
 
+/*****Statistics Section*****/
+.stats-box {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.box-1 {
+    grid-area: box-1;
+}
+
+.box-2 {
+    grid-area: box-2;
+}
+
+.statistics-section {
+    margin: 6rem 0;
+    padding: 10rem 0;
+    background-image: url("images/pinapplewebbackground.jpg");
+    background-size: cover;
+    display: grid; 
+    justify-items: center;
+    align-items: center;
+    gap: 2rem;
+    grid-template-areas: "box-1 box-2";
+}
+
+.stats-box p, h3 {
+    color: var(--white);
+}
+
+.stats-box p {
+    font-size: 1.735rem;
+}
+
+.stats-box h3 {
+    font-size: 4.75rem;
+    font-weight: bold;
+}
+
 /*****Aside*****/
 aside {
     background-color: var(--grey);

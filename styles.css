@@ -11,7 +11,7 @@
     --black: #282828;
     --white: #F0F0F0;
     --grey: #F2F2F2;
-    --dark-grey: #F7F7F7;
+    --light-grey: #F7F7F7;
 }
 
 /*****Navbar******/
@@ -118,7 +118,7 @@
 
 /*****"What to Expect" Section*****/
 .what-to-expect-section {
-    background-color: var(--dark-grey);
+    background-color: var(--light-grey);
     padding: 1.375rem 0 2.575rem 0;
 }
 
@@ -224,6 +224,58 @@ align-items: center;
 .stats-box h3 {
     font-size: 4.75rem;
     font-weight: bold;
+}
+
+/*****Comment Section*****/
+.comment-section {
+    background-color: var(--light-grey);
+    padding: 2rem 0;
+}
+
+.comment-section h2 {
+    font-size: 2.4rem;
+    padding-bottom: 1.6rem;
+    text-align: center;
+}
+
+.input-container {
+    margin: 0 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    gap: 1rem;
+}
+
+.input-container div label {
+    font-size: 1.3rem;
+}
+
+.input-container div input {
+    width: 100%;
+    font-size: 1.125rem;
+    margin-top: 0.4rem;
+}
+
+.input-container div textarea {
+    width: 100%;
+    height: 6rem;
+    margin-top: 0.4rem;
+}
+
+.submit-button {
+    margin-top: 0.75rem;
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button input {
+    font-size: 1.2rem;
+    border: 1px solid var(--light-blue);
+    border-radius: 4px;
+    background-color: var(--light-blue);
+    color: var(--white);
+    padding: 0.5rem 1rem;
 }
 
 /*****Aside*****/

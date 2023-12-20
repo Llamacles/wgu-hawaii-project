@@ -393,10 +393,38 @@ table, th, td {
 
 /*****City text*****/
 .city-text {
-    margin: 3em;
+    margin: 3em 3em 0 3em;
 }
 
 .city-text a {
     text-decoration: none;
     color: var(--light-blue);
 }
+
+/*****City Activity & Places*****/
+.list-1 {
+    grid-area: list-1;
+}
+
+.list-2 {
+    grid-area: list-2;
+}
+
+.city-list h2 {
+    color: var(--dark-blue);
+}
+
+.city-list li {
+    font-size: 1em;
+}
+
+.city-list-box {
+    display: grid;
+    gap: 0.5em;
+    padding: 3em;
+    justify-items: center;
+    padding-inline-start: 40px;
+    grid-template-columns: 45% 45%;
+    grid-template-areas: "list-1 list-2";
+}
+

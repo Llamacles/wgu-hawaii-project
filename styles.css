@@ -364,3 +364,29 @@ aside {
     margin: 2rem 0 2rem 6rem;
     border-radius: 8px;
 }
+
+/*****City Table*****/
+.city-table h2 {
+    color: var(--dark-blue);
+    text-align: center;
+    text-decoration: overline;
+}
+
+table, th, td {
+    border: 1px solid var(--black);
+    padding: 0.2em;
+}
+
+.empty-cell {
+    background-color: var(--black);
+}
+
+.stat-name, .headers th {
+    font-weight: bold;
+    color: var(--dark-blue)
+}
+
+.city-table table {
+    margin: 0 auto 2em auto;
+    width: 70%;
+}

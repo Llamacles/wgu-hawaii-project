@@ -30,6 +30,7 @@
     justify-content: start;
     align-items: center;
     gap: 22px;
+    z-index: 10;
 }
 
 .nav-links {
@@ -289,6 +290,7 @@ align-items: center;
 /*****Aside*****/
 aside {
     background-color: var(--grey);
+    z-index: 8;
 }
 
 .aside-title {
@@ -363,6 +365,28 @@ aside {
     height: 16rem;
     margin: 2rem 0 2rem 6rem;
     border-radius: 8px;
+}
+
+.img-box {
+    position: relative;
+}
+
+.city-img-text {
+    color: var(--white);
+    position: absolute;
+    top: 71%;
+    left: 32%;
+}
+
+.city-img-text a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+
+
+.city-img-text a:hover {
+    color: var(--light-blue);
 }
 
 /*****City Table*****/

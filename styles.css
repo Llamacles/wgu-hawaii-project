@@ -381,7 +381,7 @@ table, th, td {
     background-color: var(--black);
 }
 
-.stat-name, .headers th {
+.stat-name, .headers {
     font-weight: bold;
     color: var(--dark-blue)
 }
@@ -389,6 +389,11 @@ table, th, td {
 .city-table table {
     margin: 0 auto 2em auto;
     width: 70%;
+}
+
+.highlight-cell {
+    color: var(--white);
+    background-color: var(--light-blue);
 }
 
 /*****City text*****/

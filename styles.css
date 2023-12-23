@@ -457,3 +457,7 @@ table, th, td {
     grid-template-areas: "list-1 list-2";
 }
 
+/*****Sources Page*****/
+.source-box {
+    padding-top: 70px;
+}
